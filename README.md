@@ -1,18 +1,15 @@
 # Dual-Microphone Noise Removal for Keyword Spotting
 ### Frédéric Bischoff and Rayan Daod Nathoo
-**Course**: _Audio and Acoustic Signal Processing_ by Christof Faller and Mihailo Kolundzija
-
-**Deadline**: 23:59 on December 15th, 2019
+Mini-project for [Audio and Acoustic Signal Processing]() by [Christof Faller](https://www.epfl.ch/labs/lcav/people/) and [Mihailo Kolundzija](https://www.epfl.ch/labs/lcav/people/)
 
 ## Getting Started
 
-To run our project, please:
 - Clone this project
-- Download this data folder and place it at the root of the project: https://drive.google.com/file/d/1x0IpFm5-Ld6oviffbvq4wW0XB98rt3ev/view?usp=sharing
-- Run one of the two Jupyter Notebooks: Wiener or RLS
+- Download [this data folder](https://drive.google.com/file/d/1x0IpFm5-Ld6oviffbvq4wW0XB98rt3ev/view?usp=sharing) and place it at the root of the project
+- Run the jupyter notebooks
 
-## Prerequisites
-Python 3, Jupyter Notebook
+## Language
+Python 3
 
 ## Inspiration
 
@@ -34,7 +31,7 @@ For the Wiener filter, we based ourselves on scientific papers we found on the i
 
 The most challenging part was to make the algorithms converge and to understand their behavior. Since it is the first time we are working on an audio signal processing project, we had a hard time finding the right libraries and figuring out why our implementations did not work at first. It required a lot of perseverance and discussions with the teachers to finally reach the end.
 
-## Accomplishments that we are proud of
+## Accomplishments we are proud of
 
 In the end, we implemented 2 (kinda) working signal processing algorithms almost without having got any help on the implementation part and being able to hear the result is always satisfying.
 
